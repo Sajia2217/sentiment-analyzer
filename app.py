@@ -83,7 +83,7 @@ with st.form("sentiment_form"):
     user_text = st.text_area(
         "Enter a message / signal text:",
         height=150,
-        placeholder="Example: bitcoin etf growing gold etf losing fund crypto bitcoin",
+        placeholder="Example: Telegram messages write to need here....",
     )
     submitted = st.form_submit_button("Analyze Sentiment")
 
