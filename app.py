@@ -76,7 +76,7 @@ def predict_sentiment(text: str):
 # ----------------- STREAMLIT UI -----------------
 st.set_page_config(page_title="Sentiment Analyzer", page_icon="📊")
 
-st.title("📊 Crypto / Text Sentiment Analyzer")
+st.title("📊Text Sentiment Analyzer")
 st.write("Model: GRU sentiment model loaded from GitHub Release asset.")
 
 with st.form("sentiment_form"):
